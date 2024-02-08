@@ -1,0 +1,120 @@
+
+header{
+    margin: 40px 140px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.intro{
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    font-size: 18px;
+margin: 30px;
+}
+.tomato{
+    color:tomato;
+}
+/* part-1 */
+.part-1{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    height:500px;
+    
+}
+.part-container{
+    color:whitesmoke;
+    text-align: center; 
+    padding-top: 80px;
+}
+.part-1-title{
+    font-size: 60px;
+}
+.part-1-box{
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+    padding: 60px;
+    }
+
+.input{
+    text-decoration: none;
+    height: 40px; width: 150px;
+    border: 0px solid white;
+    border-radius: 5px;
+    font-size: ;
+    
+    
+}
+.inp{
+    text-align: center;
+    height: 40px; width: 150px;
+    background-color: tomato;
+    border: 0px solid white;
+    border-radius: 5px;
+    
+}
+
+/* part-2 */
+.part-2{
+    margin-top: 80px;
+    display: flex;
+}
+.part-2-container{
+    width: 800px;
+    
+}
+.btn{
+    border: 0px solid white;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 5px;
+    height: 50px; width: 100px;
+}
+img{
+    height: 300px;
+}
+   
+
+
+/* @media screen and (max-width: 600px) {
+    .title-contain {
+        text-align: center;
+    }
+
+    .title-contain li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .part-container {
+        padding: 0 10px;
+    }
+} */
+@media screen and (max-width: 600px) {
+    img{
+        width: 100%;
+    }
+    .taitle-contain{
+        text-align: center;
+    }
+    .taitle-contain li{
+        display: block;
+        margin: 5px 0px;
+        gap: 5px;
+    }
+    .part-container{
+        padding: 0px 5px;
+    }
+    .part-2{
+        flex-direction: column;
+    }
+    .part-2-container{
+        width: 100%;
+    }
+    
+}
