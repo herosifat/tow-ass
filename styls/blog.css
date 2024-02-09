@@ -62,7 +62,6 @@ margin: 30px;
 
 /* part-2 */
 .part-2{
-  
     margin-top: 80px;
     display: flex;
     gap: 20px;
@@ -194,29 +193,16 @@ main{
 .fotter-discription{
     text-align: center;
 }
-.fotter-icon{
-    display: flex;
+.f-img{
     width: 30px;
-    height: 30px;
-    gap: 30px;
-    padding-left: 500px;
+    gap: 10px;
+}
+
+.f-last{
+    text-align: center;
 }  
 
 
-/* @media screen and (max-width: 600px) {
-    .title-contain {
-        text-align: center;
-    }
-
-    .title-contain li {
-        display: block;
-        margin: 5px 0;
-    }
-
-    .part-container {
-        padding: 0 10px;
-    }
-} */
 @media screen and (max-width: 600px) {
     img{
         width: 100%;
@@ -233,6 +219,7 @@ main{
         padding: 0px 5px;
     }
     .part-2{
+        width: 100%;
         flex-direction: column;
     }
     .part-2-container{
